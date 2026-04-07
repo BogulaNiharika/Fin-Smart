@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-primary: #F8FAFC;
+  --color-secondary: #FFFFFF;
+  --color-accent: #6366F1;
+  --color-success: #10B981;
+  --color-warning: #F43F5E;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-slate-900 font-sans antialiased;
+  }
+}
+
+@utility glass {
+  @apply bg-white/70 backdrop-blur-md border border-slate-200 shadow-sm;
+}
+
+@utility glass-card {
+  @apply bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition-shadow duration-300;
+}

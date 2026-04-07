@@ -1,0 +1,7 @@
+{
+  "name": "Fin-Smart",
+  "description": "AI-powered financial intelligence assistant for analyzing behavior, predicting trends, and providing personalized insights.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
